@@ -1,0 +1,74 @@
+.about-us {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.presentation-container {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.presentation-text-area {
+    width: calc(60% - .75rem);
+}
+
+.presentation-text {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.presentation-image-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(40% - .75rem);
+}
+
+.presentation-image {
+    width: 100%;
+}
+
+.presentation-philosophy {
+    margin-top: 3rem;
+}
+
+.presentation-cards {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.feedback-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem
+}
+
+
+
+@media (max-width: 900px) {
+    .presentation-text-area {
+        width: 100%;
+    }
+
+    .presentation-image-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .presentation-cards {
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 1.5rem;
+    }
+
+    .feedback-grid {
+        grid-template-columns: 1fr;
+    }
+}

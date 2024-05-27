@@ -1,0 +1,10 @@
+.feedback p {
+    text-align: justify;
+    padding: 1rem;
+    font-size: 1.125rem;
+}
+
+.partner {
+    font-weight: 700;
+    font-style: italic;
+}
